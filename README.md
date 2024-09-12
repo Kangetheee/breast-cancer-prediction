@@ -79,6 +79,9 @@ Once you input the diagnostic data, the model will output:
  
 _Display of the predicted result and probability._
 
+![Screenshot (129)](https://github.com/user-attachments/assets/d36c870a-d434-4ce5-8b60-163a7805b493)
+
+
 ## Customization
 
 ### Change Model or Parameters
