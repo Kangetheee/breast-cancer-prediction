@@ -4,8 +4,8 @@ To create a compelling `README.md` for your breast cancer prediction app, I’ll
 
 # Breast Cancer Predictor
 
-![App Interface](path/to/your_image1.png)  
-_Example of the main interface of the Breast Cancer Predictor._
+ ![Screenshot (129)](https://github.com/user-attachments/assets/63fb3576-cfa9-45ea-b5df-cef3b65e2fa4)
+
 
 ## Overview
 
@@ -23,8 +23,9 @@ The app features a user-friendly interface built with [Streamlit](https://stream
 - **Prediction Output:** Provides the likelihood of the diagnosis being benign or malignant.
 - **Model Explanation:** Uses logistic regression for transparent and interpretable predictions.
 
-![Radar Chart](path/to/your_image2.png)  
 _Visual representation of diagnostic measurements via a radar chart._
+![newplot (1)](https://github.com/user-attachments/assets/ec8afac6-42bf-4159-8b6e-19453f62c4b0)
+
 
 ## Tech Stack
 
@@ -55,7 +56,8 @@ pip install -r requirements.txt
 
 ### 3. Download the Dataset
 
-Ensure you have the breast cancer dataset (`data.csv`) in the `data/` directory. You can download it from sources like the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29).
+Ensure you have the breast cancer dataset (`data.csv`) in the `data/` directory. 
+https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 ### 4. Run the Application
 
@@ -74,8 +76,7 @@ Once you input the diagnostic data, the model will output:
 - **Diagnosis (Benign/Malignant)**: Indicates whether the tumor is likely to be benign or malignant.
 - **Probability**: Shows the likelihood of the tumor being benign or malignant.
 
-  ![Screenshot (129)](https://github.com/user-attachments/assets/63fb3576-cfa9-45ea-b5df-cef3b65e2fa4)
-
+ 
 _Display of the predicted result and probability._
 
 ## Customization
@@ -97,6 +98,4 @@ Contributions are welcome! Please feel free to submit a pull request with your e
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-By including the images referenced in the markdown, users can visually understand the interface and output. You will need to store these images in the appropriate path (e.g., `images/`) and replace `path/to/your_image1.png` with the actual file paths.
 
