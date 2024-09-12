@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Global background color */
+body {
+    background-color: #f0f2f6; /* Light grey background */
+    font-family: 'Helvetica', sans-serif; /* Default font */
+}
+
+/* Sidebar styling */
+.sidebar .block-container {
+    background-color: #ced8e2; /* Darker sidebar */
+    color: #101720; /* Sidebar text color */
+}
+
+/* Sliders styling */
+.sidebar .stSlider label {
+    color: #ff69b4 !important; /* Pink color for the slider labels */
+    font-weight: bold;
+}
+
+
+/* Headers */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #ec40d5; /* Custom header color */
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #2ecc71; /* Custom button color */
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.stButton > button:hover {
+    background-color: #27ae60; /* Button hover color */
+}
+
+/* Custom styling for diagnosis labels */
+.diagnosis {
+    color: #fff;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+  }
+  
+.diagnosis.benign {
+    background-color: #01DB4B
+}
+
+.diagnosis.malicious {
+    background-color: #ff4b4b
+}
+
+/* Chart styling */
+.stPlotlyChart {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container text styling */
+.stMarkdown p {
+    font-size: 18px;
+}
